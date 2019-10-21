@@ -583,6 +583,7 @@ function () {
       }
 
       this._data.appleLocation = _appleLocation;
+      this._data.location = this._data.appleLocation.title + '\n' + this._data.appleLocation.address;
       return this;
     }
     /**
