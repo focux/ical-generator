@@ -583,7 +583,6 @@ function () {
       }
 
       this._data.appleLocation = _appleLocation;
-      this._data.location = null;
       return this;
     }
     /**
